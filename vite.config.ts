@@ -3,5 +3,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [tailwindcss()],
-  base: "3column-preview-card-component",
+  base: "/3column-preview-card-component",
 });
