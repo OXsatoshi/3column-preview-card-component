@@ -29,7 +29,3 @@
   --color-gold-500: hsl(31, 77%, 52%);
   --color-gold-200: hsl(42, 100%, 73%);
 }
-
-* {
-  outline: red 1px solid;
-}
