@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  /* Spacing Tokens */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-400: 2rem; /* 32px */
+  --spacing-500: 2.5rem; /* 40px */
+  --spacing-600: 3rem; /* 48px */
+  --spacing-1000: 5rem; /* 80px */
+
+  /* Font Families */
+  --font-heading: "Big Shoulders Display", cursive;
+  --font-body: "Lexend Deca", sans-serif;
+
+  /* Typography Presets */
+  --text-preset-1: 2.5rem;
+  --text-preset-1--line-height: 1.2;
+
+  --text-preset-2: 0.9375rem;
+  --text-preset-2--line-height: 1.65;
+
+  /* Color Palette */
+  --color-neutral-100: hsl(0, 0%, 95%);
+  --color-green-950: hsl(179, 100%, 13%);
+  --color-green-500: hsl(170, 76%, 41%);
+  --color-cyan-800: hsl(184, 100%, 22%);
+  --color-cyan-500: hsl(184, 67%, 45%);
+  --color-gold-500: hsl(31, 77%, 52%);
+  --color-gold-200: hsl(42, 100%, 73%);
+}
+
+* {
+  outline: red 1px solid;
+}
